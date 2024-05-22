@@ -197,3 +197,43 @@ aside span {
     padding: 22px;
   }
 }
+
+/* Estilos para todos os parágrafos */
+p {
+  margin-bottom: 20px; /* Espaçamento entre parágrafos */
+}
+
+/* Estilos específicos para parágrafos com a classe "paragraph" */
+.paragraph {
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.6; /* Altura da linha */
+  color: #333; /* Cor do texto */
+}
+
+.portfolio-description {
+  font-size: 14px; /* Tamanho do texto do parágrafo */
+  line-height: 1.4; /* Altura da linha do parágrafo */
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Torna a foto redonda */
+  object-fit: cover; /* Garante que a imagem se ajuste ao tamanho do contêiner */
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #6d00d3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #44017a;
+}
+
