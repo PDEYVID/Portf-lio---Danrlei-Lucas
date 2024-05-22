@@ -150,7 +150,6 @@ aside {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adicionando uma sombra suave */
 }
 
-
 aside * {
   animation: entering 0.7s ease-in-out;
 }
