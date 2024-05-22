@@ -138,16 +138,18 @@ aside {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding: 20px; /* Adicionando algum espaçamento interno */
 
-  border-right: 1px solid;
-  border-image: linear-gradient(#44017a, #2c2c31) 1;
+  border-right: 1px solid transparent; /* Removendo a borda transparente */
 
-  background-image: url(/assets/background.svg);
-  background-position: top right;
+  background-image: linear-gradient(to right, #44017a, #2c2c31), url(/assets/IMAGENS/background.jpg); /* Usando uma imagem de fundo com um gradiente sobreposto */
+  background-position: center; /* Centralizando a imagem de fundo */
   background-repeat: no-repeat;
-  background-size: center;
-
+  background-size: cover;
+  border-radius: 10px; /* Adicionando bordas arredondadas */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adicionando uma sombra suave */
 }
+
 
 aside * {
   animation: entering 0.7s ease-in-out;
@@ -237,18 +239,6 @@ p {
   background-color: #44017a;
 }
 
-body {
-  background-color: rgba(109, 0, 211, 0.8); /* Cor roxa semi-transparente */
-  color: #fff; /* Cor do texto branco para contrastar com o fundo */
-  font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
-  margin: 0; /* Removendo margens padrão */
-  padding: 0; /* Removendo preenchimento padrão */
-  background-image: url('link_para_o_seu_background.jpg'); /* Adicione a imagem de fundo que desejar */
-  background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir toda a tela */
-  background-position: center; /* Posiciona a imagem de fundo no centro */
-  backdrop-filter: blur(10px); /* Adiciona um efeito de desfoque */
-}
-
 .profile-picture {
   width: 160px;
   height: 160px;
@@ -284,5 +274,6 @@ body {
 .btn:hover {
   background-color: #44017a;
 }
+
 
 
