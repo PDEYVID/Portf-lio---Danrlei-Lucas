@@ -35,16 +35,18 @@
 }
 
 body {
-  background-color: #121215;
-  color: #eaeaea;
-
-  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #000000, #44017a); /* Degradê de preto para roxo */
+  color: #eaeaea; /* Cor do texto */
+  font-family: 'Roboto', sans-serif; /* Fonte */
+  margin: 0; /* Removendo margens padrão */
+  padding: 0; /* Removendo preenchimento padrão */
 
   display: grid;
   grid-template-areas: "profile timeline";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100vh;
 }
+
 
 nav {
   padding: 64px;
